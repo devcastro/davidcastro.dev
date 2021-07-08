@@ -1,0 +1,55 @@
+/*
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    overscroll-behavior-y: contain;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    user-select: none;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial,
+      sans-serif;
+    position: fixed;
+    overflow: hidden;
+  } */
+  
+  #deck {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    bottom: 200px;
+    overflow: hidden;
+    width: 100%;
+    height: 480px;
+  }
+  
+  #deck > div {
+    position: absolute;
+    width: 100vw;
+    height: 333px;
+    will-change: transform;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    touch-action: none;
+  }
+  
+  #deck > div > div {
+    background-color: white;
+    background-size: auto 85%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 32vh;
+    max-width: 300px;
+    height: 200px;
+    max-height: 300px;
+    will-change: transform;
+    border-radius: 0.75rem;
+    box-shadow: 0 12.5px 100px -10px rgba(50, 50, 73, 0.4), 0 10px 10px -10px rgba(50, 50, 73, 0.3);
+  }
+  
