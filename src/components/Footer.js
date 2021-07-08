@@ -21,7 +21,7 @@ const Footer = () => {
             >
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
             </svg>
-            <span class="ml-3 text-xl">David Castro</span>
+            <span class="ml-3 text-xl">Designed and Built by David Castro</span>
           </a>
           <p class="text-sm text-white-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
             © 2021 ActionCastro —
