@@ -10,15 +10,15 @@ const Content = () => {
           bottom-18	
           font-extrabold 
           font-arial 
-          text-8xl 
+          text-4xl 
           uppercase 
-          flex justify-center items-center 
+          flex justify-center items-center text-center  
           hover:text-red-500 transition duration-400 ease-in-out
-        cursor-pointer',
+        cursor-pointer
+        sm:text-8xl
         "
-        to="/"
+        to="https://www.twitch.tv/actioncastro"
       >
-        {" "}
         The Stack
       </Link>
 
