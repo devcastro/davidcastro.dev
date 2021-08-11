@@ -7,14 +7,14 @@ export default function NotFoundPage() {
     items-center text-center
     h-screen bg-gray-300 "
     >
-      <p className="font-bold text-6xl">HALT! 404 - page not found</p>
-      <p className="font-bold items-center text-center text-2xl p-20">
+      <p className="font-bold text-xl sm:text-5xl md:text-6xl relative sm:top-36 md:top-44">HALT! 404 - page not found</p>
+      <p className="font-bold items-center text-center text-lg sm:text-2xl p-10 sm:p-32 md:p-44">
         Wanderer, are you lost? This is a construction zone.
       </p>
 
       <img
         className="
-        max-h-96
+        max-h-72 
          rounded-full mb-20 shadow
       "
         src={Steve}
