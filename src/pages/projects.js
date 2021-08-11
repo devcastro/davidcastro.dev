@@ -1,9 +1,9 @@
 import React from "react";
 import ImageOne from "../images/ImageOne.png";
-import ImageTwo from "../images/imagetwo.PNG";
-import ImageThree from "../images/image3.2.png";
-import ImageFour from "../images/imagefour.png";
-import ImageFive from "../images/imageFive.png";
+import ImageTwo from "../images/ImageTwo.png";
+import ImageThree from "../images/ImageThree.png";
+import ImageFour from "../images/ImageFour.png";
+import ImageFive from "../images/ImageFive.png";
 
 const Projects = () => {
   return (
