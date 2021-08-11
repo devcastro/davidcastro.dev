@@ -1,9 +1,9 @@
 import React from "react";
-import ImageOne from "../images/ImageOne.png";
-import ImageTwo from "../images/ImageTwo.png";
-import ImageThree from "../images/ImageThree.png";
-import ImageFour from "../images/ImageFour.png";
-import ImageFive from "../images/ImageFive.png";
+import ImageOneA from "../images/ImageOne.png";
+import ImageTwoA from "../images/ImageTwo.png";
+import ImageThreeA from "../images/ImageThree.png";
+import ImageFourA from "../images/ImageFour.png";
+import ImageFiveA from "../images/ImageFive.png";
 
 const Projects = () => {
   return (
@@ -36,7 +36,7 @@ const Projects = () => {
            hover:-translate-y-1" 
            href='https://lude.netlify.app/'>
           <img
-            src={ImageFive}
+            src={ImageFiveA}
             alt="Tinder clone"
             className="h-auto w-72"
           /> 
@@ -62,7 +62,7 @@ const Projects = () => {
            hover:-translate-y-1" 
            href='https://actioncastro.netlify.app'>
           <img
-            src={ImageOne}
+            src={ImageOneA}
             alt="Linktree React Clone"
             className="h-auto w-72"
           /> 
@@ -89,7 +89,7 @@ const Projects = () => {
            hover:-translate-y-1" 
            href='https://thriveboxing.netlify.app/'>
           <img
-            src={ImageThree}
+            src={ImageThreeA}
             alt="Linktree React Clone"
             className="h-auto w-72"
           /> 
@@ -115,7 +115,7 @@ const Projects = () => {
            hover:-translate-y-1" 
            href='https://calculatorcastro.netlify.app/'>
           <img
-            src={ImageFour}
+            src={ImageFourA}
             alt="Linktree React Clone"
             className="h-auto w-72"
           /> 
@@ -141,7 +141,7 @@ const Projects = () => {
            hover:-translate-y-1" 
            href='https://github.com/devcastro/Twitchbot'>
           <img
-            src={ImageTwo}
+            src={ImageTwoA}
             alt="Linktree React Clone"
             className="h-auto w-60"
           /> 
