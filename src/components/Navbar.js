@@ -6,7 +6,7 @@ const Navbar = ({ toggle }) => {
     <nav
       className="flex justify-between item-center h-16 pt-4 
       bg-black
-      text-black relative shadow-sm font-mono text-white"
+      relative shadow-sm font-mono text-white"
       role="navigation"
     >
       <Link

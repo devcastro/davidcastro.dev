@@ -2,8 +2,8 @@ import React from "react";
 import ImageOneA from "../images/ImageOne.png";
 import ImageTwoA from "../images/ImageTwo.png";
 import ImageThreeA from "../images/ImageThree.png";
-import ImageFourA from "../images/ImageFour.png";
-import ImageFiveA from "../images/ImageFive.png";
+import ImageFourA from "../images/imagefour.PNG";
+import ImageFiveA from "../images/imageFive.png"
 
 const Projects = () => {
   return (
@@ -21,11 +21,11 @@ const Projects = () => {
           <a
           className="
           flex flex-col justify-center items-center text-center
-          h-60 w-auto  
-            py-4 px-10
+          h-60 w-6/12 mx-auto
+            py-2 px-10
             cursor-pointer
            bg-white 
-           rounded-full text-2xl 
+           rounded-full text-2xl
            hover:bg-yellow-300
            hover:text-red-500
            visited:text-purple-600
@@ -43,11 +43,15 @@ const Projects = () => {
           Front-End Tinder Clone
           <div className="text-lg font-mono">React JS, Tailwind</div>
           </a>
+          <a href="https://github.com/devcastro/tinderclone">
+          <div className="relative text-lg font-mono text-center p-2 mt-3 mb-12 mx-auto border-8 border-yellow-300 w-6/12 hover:bg-black hover:text-white cursor-pointer ">
+            source
+          </div></a>
 
           <a
           className="
           flex flex-col justify-center items-center text-center
-          h-60 w-auto  
+          h-60 w-6/12 mx-auto
             py-4 px-10
             cursor-pointer
            bg-white 
@@ -69,12 +73,15 @@ const Projects = () => {
           Linktree-Like Custom Profile
           <div className="text-lg font-mono">React JS, CSS</div>
           </a>
-
+          <a href="https://github.com/devcastro/actioncastro.dev">
+          <div className="relative text-lg font-mono text-center p-2 mt-3 mb-12 mx-auto border-8 border-yellow-300 w-6/12 hover:bg-black hover:text-white cursor-pointer ">
+            source
+          </div></a>
           
           <a 
           className="
           flex flex-col justify-center items-center text-center
-          h-60 w-auto  
+          h-60 w-6/12 mx-auto 
             py-4 px-10
             cursor-pointer
            bg-white 
@@ -96,11 +103,15 @@ const Projects = () => {
           Boxing Gloves Landing Page
           <div className="text-lg font-mono"> HTML, CSS, JavaScript </div>
           </a>
+          <a href="https://github.com/devcastro/boxing-project">
+          <div className="relative text-lg font-mono text-center p-2 mt-3 mb-12 mx-auto border-8 border-yellow-300 w-6/12 hover:bg-black hover:text-white cursor-pointer ">
+            source
+          </div></a>
 
           <a 
           className="
           flex flex-col justify-center items-center text-center
-          h-60 w-auto  
+          h-60 w-6/12 mx-auto
             py-4 px-10
             cursor-pointer
            bg-white 
@@ -122,11 +133,15 @@ const Projects = () => {
           Simple Calculator App
           <div className="text-lg font-mono"> HTML, CSS, JavaScript </div>
           </a>
+          <a href="https://github.com/devcastro/JS-calculator">
+          <div className="relative text-lg font-mono text-center p-2 mt-3 mb-12 mx-auto border-8 border-yellow-300 w-6/12 hover:bg-black hover:text-white cursor-pointer ">
+            source
+          </div></a>
 
           <a 
           className="
           flex flex-col justify-center items-center text-center
-          h-60 w-auto  
+          h-50 w-6/12 mx-auto  
             py-4 px-10
             cursor-pointer
            bg-white 
@@ -145,9 +160,10 @@ const Projects = () => {
             alt="Linktree React Clone"
             className="h-auto w-60"
           /> 
-          Twitch Chat Bot
+          Twitch Chat Bot (Source)
           <div className="text-lg font-mono"> Node.js, JS, Twitch API - GH Team Project  </div>
           </a>
+        
 
 
           

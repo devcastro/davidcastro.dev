@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <footer class="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-white-600 body-font">
+      <footer class="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-white-600 body-font overflow-x-hidden;">
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
           <a
             href="https://actioncastro.netlify.app/"

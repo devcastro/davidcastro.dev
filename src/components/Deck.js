@@ -56,9 +56,10 @@ const Deck = () => {
         setTimeout(() => gone.clear() || set((i) => to(i)), 600);
     }
   );
-  // Now we're just mapping the animated values to our view, that's it. Btw, this component only renders once. :-)
+  // Now we're just mapping the animated values to our view, that's it
+
   return (
-    <div id="deck">
+    <div id="deck" className='overflow-hidden'>
       {props.map(({ x, y, rot, scale }, i) => (
         <animated.div key={i} style={{ x, y }}>
           {/* This is the card itself, we're binding our gesture to it (and inject its index so we know which is which) */}

@@ -16,53 +16,58 @@
     position: fixed;
     overflow: hidden;
   } */
-  
-  #deck {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    
-    bottom: 200px;
-    overflow: hidden;
-    width: 100%;
-    height: 480px;
-  }
-  
-  #deck > div {
-    position: absolute;
-    width: 100vw;
-    height: 333px;
-    will-change: transform;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    touch-action: none;
-  }
-  
-  #deck > div > div {
-    background-color: white;
-    background-size: auto 85%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    width: 32vh;
+* {
+  box-sizing: border-box;
+}
+
+#deck {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 200px;
+  overflow-x: hidden;
+  width: 100%;
+  height: 480px;
+}
+
+#deck>div {
+  position: absolute;
+  width: 100vw;
+  height: 333px;
+  will-change: transform;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  touch-action: none;
+  overflow-x: hidden;
+}
+
+#deck>div>div {
+  background-color: white;
+  background-size: auto 85%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 32vh;
+  max-width: 300px;
+  height: 200px;
+  max-height: 300px;
+  will-change: transform;
+  border-radius: 0.75rem;
+  box-shadow: 0 12.5px 100px -10px rgba(50, 50, 73, 0.4), 0 10px 10px -10px rgba(50, 50, 73, 0.3);
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+
+  #deck>div>div {
+    width: 25vh;
     max-width: 300px;
-    height: 200px;
-    max-height: 300px;
+    height: 150px;
+    max-height: 150px;
     will-change: transform;
     border-radius: 0.75rem;
     box-shadow: 0 12.5px 100px -10px rgba(50, 50, 73, 0.4), 0 10px 10px -10px rgba(50, 50, 73, 0.3);
+    overflow-x: hidden;
   }
-  
-  @media only screen and (max-width: 600px) {
-      
-    #deck > div > div {
-        width: 25vh;
-        max-width: 300px;
-        height: 150px;
-        max-height: 150px;
-        will-change: transform;
-        border-radius: 0.75rem;
-        box-shadow: 0 12.5px 100px -10px rgba(50, 50, 73, 0.4), 0 10px 10px -10px rgba(50, 50, 73, 0.3);
-      }
 
-  }
+}

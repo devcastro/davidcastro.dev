@@ -1,12 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Deck from "../components/Deck"
 
 const About = () => {
   return (
     <>
+    <div className="overflow-x-hidden"></div>
       <div className="h-screen flex justify-center items-center bg-red-300">
         <h1 className="font-black text-8xl uppercase">About</h1>
       </div>
+
       <div className="p-10"></div>
       <div className="max-w-lg mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-3xl">
         <div className="md:flex">
@@ -25,6 +28,7 @@ const About = () => {
               specialist, a globe trotter, a Twitch streamer. Unfortunately not
               a doctor or a designer, sorry mom! If you have any questions on my
               projects or journey, feel free to
+
               <Link className="font-bold" to="/contact">
                 {" "}
                 contact me!
@@ -33,7 +37,10 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="p-10"></div>
+
+      <Deck className="overflow-hidden"/>
+      
+     
     </>
   );
 };
