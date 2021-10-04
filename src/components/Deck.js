@@ -5,11 +5,15 @@ import "./Deck.css";
 
 const Deck = () => {
   const cards = [
+
+    "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
+    "https://upload.wikimedia.org/wikipedia/commons/3/38/SQLite370.svg",
     "https://miro.medium.com/max/1400/0*A70w-WrmSaBVxwAm.png",
     "https://upload.wikimedia.org/wikipedia/commons/3/3d/CSS.3.svg",
     "https://miro.medium.com/max/384/1*To2H39eauxaeYxYMtV1afQ.png",
     "https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo.png",
-    "https://i.stack.imgur.com/PgcSR.png",
+    "https://i.stack.imgur.com/PgcSR.png"
+  
   ];
 
   // These two are just helpers, they curate spring data, values that are later being interpolated into css
@@ -35,7 +39,7 @@ const Deck = () => {
   // Create a gesture, we're interested in down-state, delta (current-pos - click-pos), direction and velocity
   const bind = useDrag(
     ({ args: [index], down, movement: [mx], direction: [xDir], velocity }) => {
-      const trigger = velocity > 0.2; // If you flick hard enough it should trigger the card to fly out
+      const trigger = velocity > 0.15; // If you flick hard enough it should trigger the card to fly out
       const dir = xDir < 0 ? -1 : 1; // Direction should either point left or right
       if (!down && trigger) gone.add(index); // If button/finger's up and trigger velocity is reached, we flag the card ready to fly out
       set((i) => {

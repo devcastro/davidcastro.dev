@@ -22,7 +22,7 @@ const Content = () => {
       >
         The Stack
       </Link>
-
+      <h5 class="p-5 text-center text-xl"> (flick the card left or right) </h5>
      
     </>
   );
