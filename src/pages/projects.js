@@ -4,6 +4,7 @@ import ImageTwoA from "../images/ImageTwo.png";
 import ImageThreeA from "../images/ImageThree.png";
 import ImageFourA from "../images/imagefour.PNG";
 import ImageFiveA from "../images/imageFive.png"
+import Project1 from "../images/Project1.png";
 
 const Projects = () => {
   return (
@@ -18,6 +19,38 @@ const Projects = () => {
         /* className="bg-gradient-to-r from-gray-400 via-gray-600 to-blue-800" */
       >
         
+        <a
+          className="
+          sm:text-md
+          flex flex-col justify-center items-center text-center
+          h-60 w-6/12 mx-auto
+            py-2 px-10
+            cursor-pointer
+           bg-white 
+           rounded-full text-2xl
+           hover:bg-yellow-300
+           hover:text-red-500
+           visited:text-purple-600
+           transition-all duration-250 
+           ease-in-out 
+           transform 
+           font-extrabold
+           hover:-translate-y-1" 
+           href='https://thriveboxingco.netlify.app/'>
+          <img
+            src={Project1}
+            alt="Thrive Boxing Company Official Website"
+            className="h-auto w-72"
+          /> 
+          E-Commerce webapp
+          <div className="text-lg font-mono">React JS, Commerce JS</div>
+          </a>
+          <a href="https://github.com/devcastro/React-Thrive-Boxing-Landing-Page">
+          <div className="relative text-lg font-mono text-center p-2 mt-3 mb-12 mx-auto border-8 border-yellow-300 w-6/12 hover:bg-black hover:text-white cursor-pointer ">
+            source
+          </div></a>
+
+
           <a
           className="
           flex flex-col justify-center items-center text-center
@@ -29,7 +62,7 @@ const Projects = () => {
            hover:bg-yellow-300
            hover:text-red-500
            visited:text-purple-600
-           transition-all duration-300 
+           transition-all duration-250 
            ease-in-out 
            transform 
            font-extrabold
@@ -59,7 +92,7 @@ const Projects = () => {
            hover:bg-yellow-300
            hover:text-red-500
            visited:text-purple-600
-           transition-all duration-300 
+           transition-all duration-250 
            ease-in-out 
            transform 
            font-extrabold
@@ -89,7 +122,7 @@ const Projects = () => {
            hover:bg-yellow-300
            hover:text-red-500
            visited:text-purple-600
-           transition-all duration-300 
+           transition-all duration-250 
            ease-in-out 
            transform 
            font-extrabold
@@ -119,7 +152,7 @@ const Projects = () => {
            hover:bg-yellow-300
            hover:text-red-500
            visited:text-purple-600
-           transition-all duration-300 
+           transition-all duration-250 
            ease-in-out 
            transform 
            font-extrabold
@@ -149,7 +182,7 @@ const Projects = () => {
            hover:bg-yellow-300
            hover:text-red-500
            visited:text-purple-600
-           transition-all duration-300 
+           transition-all duration-250 
            ease-in-out 
            transform 
            font-extrabold
